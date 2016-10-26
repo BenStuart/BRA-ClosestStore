@@ -1,5 +1,5 @@
 //importing required packages
-var config = require('package.json')
+var config = require('./package.json')
 var __cwd = process.cwd()
 var express = require('express')
 var app = express()
@@ -33,11 +33,11 @@ var locations;
 
 // Sent to the browser when requested
 app.get('/',function(req,res){
-  res.sendfile("Form - onSubmit and Map.html");
+  res.sendfile("index.html");
 });
 
 // Import cvs file from given location
-csvtojson.fromFile(__cwd + "/Allana Top 550 - September 2016.csv",function(err,result){
+csvtojson.fromFile(__cwd + "/data.csv",function(err,result){
 	if (err) { throw err }
   if(result) {
 

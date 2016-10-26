@@ -1,0 +1,27 @@
+{
+  "name": "bra-closeststore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKingdomAus/BRA-ClosestStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKingdomAus/BRA-ClosestStore/issues"
+  },
+  "homepage": "https://github.com/TheKingdomAus/BRA-ClosestStore#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bottleneck": "^1.14.0",
+    "csvtojson": "^1.0.3",
+    "express": "^4.14.0",
+    "googlemaps": "^1.11.1",
+    "string": "^3.3.3"
+  }
+}
