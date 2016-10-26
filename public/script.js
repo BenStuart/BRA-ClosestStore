@@ -1,15 +1,3 @@
-<form>
-    <input type="text" id="address-input" value ="default">
-    <br>
-    <input type="button" value="Submit" onclick="searchAddress();">
-</form>
-
-<div id="map-canvas" style="height: 400px; width: 100%; "> </div>
-
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<script>
 
 //Listener to trigger initialize function on window load
 google.maps.event.addDomListener(window, "load", initialize);
@@ -133,4 +121,3 @@ console.log(latlng)
    });
    markers.push(marker)
 }
-</script>

@@ -31,11 +31,6 @@ var gmAPI = new GoogleMapsAPI(publicConfig)
 var longlat;
 var locations;
 
-// Sent to the browser when requested
-app.get('/',function(req,res){
-  res.sendfile("index.html");
-});
-
 // Import cvs file from given location
 csvtojson.fromFile(__cwd + "/data.csv",function(err,result){
 	if (err) { throw err }
